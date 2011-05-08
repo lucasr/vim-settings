@@ -32,5 +32,7 @@ colorscheme molokai
 
 let mapleader = ","
 
+autocmd BufWritePre *.js :%s/\s\+$//e
+
 source $HOME/.vim/highlighting.vim
 source $HOME/.vim/keyboard.vim
