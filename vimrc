@@ -8,6 +8,7 @@ endif
 call pathogen#runtime_append_all_bundles()
 
 if has("autocmd")
+  filetype off
   filetype indent on
   filetype plugin on
 endif
