@@ -29,6 +29,8 @@ set numberwidth=4
 set incsearch
 set history=50
 
+set t_Co=256
+
 colorscheme molokai
 
 let mapleader = ","
