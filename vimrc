@@ -37,5 +37,8 @@ let mapleader = ","
 
 autocmd BufWritePre *.js :%s/\s\+$//e
 
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
 source $HOME/.vim/highlighting.vim
 source $HOME/.vim/keyboard.vim
